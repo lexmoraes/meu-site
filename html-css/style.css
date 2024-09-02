@@ -1,0 +1,109 @@
+.frame {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    box-sizing: border-box;
+    background-image: url("../assets/bg-desktop.jpg");
+    background-size: cover;
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-attachment: fixed; /* Mantém a imagem fixa enquanto rola a página (opcional) */
+    flex-direction: column;
+    flex: auto;
+    margin: auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+.apresentation {
+    display: inline-grid;
+    grid-template-columns: 0.115fr 0.5fr;
+    gap: 10px 10px;
+    padding: 5px 10px 5px 5px;
+    flex-direction: column;
+
+}
+
+.imagem {
+    align-self: center;
+}
+
+#perfil {
+    border-radius: 50%; /* Borda arredondada (50% para ser totalmente circular) */
+    transition: border 0.2s ease; /* Transição suave para a borda */
+    width: 200px; /* Definindo largura da imagem */
+    height: 200px; /* Definindo altura da imagem */
+    object-fit: cover; /* Ajusta a imagem para se encaixar */
+    border: 4px solid #25258c;
+    margin-top: 25px;
+    margin-left: 8px;
+    align-self: center;
+}
+
+.icon {
+    width: 15px; /* Definindo largura da imagem */
+    height: 15px; /* Definindo altura da imagem */
+    object-fit: cover; /* Ajusta a imagem para se encaixar */
+    align-self: center;
+    justify-self: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    gap: 8px;
+    padding: 5px 0px 5px 5px;
+    list-style: none;
+    color: #0ec6b6;
+}
+
+ul li {
+    -webkit-backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+}
+
+ul li:hover {
+    transition: border 0.2s ease;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+    align-items: center;
+    color: #0ec6b6;
+}
+
+.info {
+    display: inline;
+    padding: 5px 0px 5px 5px;
+}
+
+#perfil:hover {
+    border-color: #0ec6b6;
+}
+
+.hr {
+    color: blueviolet;
+}
+
+h1 {
+    color: #0ec6b6;
+}
+
+h3 {
+    color: #0ec6b6;
+}
+
+p {
+    color: #0ec6b6;
+}
