@@ -15,7 +15,7 @@ body {
     margin: auto;
     gap: 10px;
     padding: 10px;
-    --text-color: solid #ffffff;
+    --text-color: #ffffff;
 }
 
 .apresentation {
@@ -98,13 +98,13 @@ a {
 }
 
 h1 {
-    color: solid #ffffff;
+    color: #ffffff;
 }
 
 h3 {
-    color: solid #ffffff;
+    color: #ffffff;
 }
 
 p {
-    color: solid #ffffff;
+    color: #ffffff;
 }
