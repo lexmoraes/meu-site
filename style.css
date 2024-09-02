@@ -51,7 +51,7 @@ body {
     justify-self: center;
 }
 
-ul {
+.social {
     display: flex;
     flex-direction: column;
     align-self: start;
@@ -61,7 +61,7 @@ ul {
     color: #0ec6b6;
 }
 
-ul li {
+.social li {
     -webkit-backdrop-filter: blur(4px);
     display: flex;
     justify-content: center;
@@ -72,7 +72,7 @@ ul li {
     border-radius: 8px;
 }
 
-ul li:hover {
+.social li:hover {
     transition: border 0.2s ease;
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid rgb(255, 255, 255);
