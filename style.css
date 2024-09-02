@@ -15,7 +15,7 @@ body {
     margin: auto;
     gap: 10px;
     padding: 10px;
-    --text-color: solid rgb(255, 255, 255);
+    --text-color: solid white;
 }
 
 .apresentation {
@@ -98,13 +98,13 @@ a {
 }
 
 h1 {
-    color: solid rgb(255, 255, 255);
+    color: solid white;
 }
 
 h3 {
-    color: solid rgb(255, 255, 255);
+    color: solid white;
 }
 
 p {
-    color: solid rgb(255, 255, 255);
+    color: solid white;
 }
