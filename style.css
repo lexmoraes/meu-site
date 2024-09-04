@@ -44,8 +44,8 @@ body {
 }
 
 .icon {
-    width: 0,9375rem; /* Definindo largura da imagem */
-    height: 0,9375rem; /* Definindo altura da imagem */
+    max-width: 10%; /* Definindo largura da imagem */
+    height: auto; /* Definindo altura da imagem */
     object-fit: cover; /* Ajusta a imagem para se encaixar */
     align-self: center;
     justify-self: center;
@@ -98,6 +98,9 @@ a {
 .hr {
     color: blueviolet;
 }
+
+#experiencias {
+    color: white;
 
 h1 {
     color: #ffffff;
