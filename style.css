@@ -44,8 +44,8 @@ body {
 }
 
 .icon {
-    max-width: 10%; /* Definindo largura da imagem */
-    height: auto; /* Definindo altura da imagem */
+    max-width: 1%; /* Definindo largura da imagem */
+    height: 1%; /* Definindo altura da imagem */
     object-fit: cover; /* Ajusta a imagem para se encaixar */
     align-self: center;
     justify-self: center;
